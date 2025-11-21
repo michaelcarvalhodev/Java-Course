@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3f46698-a77c-45cb-ad5b-21b633ca17d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/oo/heranca/empresa/EmpresaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oo/heranca/empresa/EmpresaTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c3f46698-a77c-45cb-ad5b-21b633ca17d2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,58 +32,58 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Atribuicao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BreakRotulado.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Cachorro.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculoTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalculoTest2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarroTeste.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClienteTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConceitosBasicos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConjuntoBaguncado.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConjuntoBaguncadoHashSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Continue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DesafioCalculadora.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DesafioFor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DesafioWhile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DiaDaSemana.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DoWhile.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmpresaTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExercicioArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExercicioArrayResposta.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExerciciosEstruturasdeControle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForEach.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Gato.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IfElse.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Jantar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Jogo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lista.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Logicos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Mapa.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Nomes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Pilha.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeiroProgama.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Relacionais.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SistemadeBibliotecaDigital.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ternario.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestAbstrato.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TipoString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TipoStringEquals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TiposPrimitivos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Unarios.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhileIndeterminado.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Wrappers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.e1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/cursojava-udemy&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/JavaCurso/JavaCurso/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Atribuicao.executor": "Run",
+    "Application.BreakRotulado.executor": "Run",
+    "Application.Cachorro.executor": "Run",
+    "Application.CalculoTest1.executor": "Run",
+    "Application.CalculoTest2.executor": "Run",
+    "Application.CarroTeste.executor": "Run",
+    "Application.ClienteTest.executor": "Run",
+    "Application.ConceitosBasicos.executor": "Run",
+    "Application.ConjuntoBaguncado.executor": "Run",
+    "Application.ConjuntoBaguncadoHashSet.executor": "Run",
+    "Application.Continue.executor": "Run",
+    "Application.DesafioCalculadora.executor": "Run",
+    "Application.DesafioFor.executor": "Run",
+    "Application.DesafioWhile.executor": "Run",
+    "Application.DiaDaSemana.executor": "Run",
+    "Application.DoWhile.executor": "Run",
+    "Application.EmpresaTest.executor": "Run",
+    "Application.ExercicioArray.executor": "Run",
+    "Application.ExercicioArrayResposta.executor": "Run",
+    "Application.ExerciciosEstruturasdeControle.executor": "Run",
+    "Application.ForEach.executor": "Run",
+    "Application.Gato.executor": "Run",
+    "Application.IfElse.executor": "Run",
+    "Application.Jantar.executor": "Run",
+    "Application.Jogo.executor": "Run",
+    "Application.Lista.executor": "Run",
+    "Application.Logicos.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Mapa.executor": "Run",
+    "Application.Nomes.executor": "Run",
+    "Application.Pilha.executor": "Run",
+    "Application.PrimeiroProgama.executor": "Run",
+    "Application.Relacionais.executor": "Run",
+    "Application.SistemadeBibliotecaDigital.executor": "Run",
+    "Application.Ternario.executor": "Run",
+    "Application.TestAbstrato.executor": "Run",
+    "Application.TipoString.executor": "Run",
+    "Application.TipoStringEquals.executor": "Run",
+    "Application.TiposPrimitivos.executor": "Run",
+    "Application.Unarios.executor": "Run",
+    "Application.WhileIndeterminado.executor": "Run",
+    "Application.Wrappers.executor": "Run",
+    "Application.e1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/libra-lingo",
+    "onboarding.tips.debug.path": "D:/JavaCurso/JavaCurso/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
