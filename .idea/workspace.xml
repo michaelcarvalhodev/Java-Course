@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c3f46698-a77c-45cb-ad5b-21b633ca17d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/Matriz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colecoes/exercicios/biblioteca/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/listas/biblioteca/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colecoes/exercicios/biblioteca/SistemadeBibliotecaDigital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/listas/biblioteca/SistemadeBibliotecaDigital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fundamentos/operadores/CalculoDeAreas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/operadores/CalculoDeAreas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +47,7 @@
     "Application.CalculoTest2.executor": "Run",
     "Application.CarroTeste.executor": "Run",
     "Application.ClienteTest.executor": "Run",
+    "Application.CompleteOCodigo.executor": "Run",
     "Application.ConceitosBasicos.executor": "Run",
     "Application.ConjuntoBaguncado.executor": "Run",
     "Application.ConjuntoBaguncadoHashSet.executor": "Run",
@@ -54,25 +57,33 @@
     "Application.DesafioWhile.executor": "Run",
     "Application.DiaDaSemana.executor": "Run",
     "Application.DoWhile.executor": "Run",
+    "Application.DoWhileLogica.executor": "Run",
     "Application.EmpresaTest.executor": "Run",
     "Application.ExercicioArray.executor": "Run",
     "Application.ExercicioArrayResposta.executor": "Run",
     "Application.ExerciciosEstruturasdeControle.executor": "Run",
     "Application.ForEach.executor": "Run",
     "Application.Gato.executor": "Run",
+    "Application.IMC.executor": "Run",
     "Application.IfElse.executor": "Run",
     "Application.Jantar.executor": "Run",
     "Application.Jogo.executor": "Run",
+    "Application.KmToMilhas.executor": "Run",
     "Application.Lista.executor": "Run",
     "Application.Logicos.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Mapa.executor": "Run",
     "Application.Nomes.executor": "Run",
+    "Application.NumeroPrimo.executor": "Run",
+    "Application.ParOuImparNegativoOuPositivo.executor": "Run",
     "Application.Pilha.executor": "Run",
     "Application.PrimeiroProgama.executor": "Run",
     "Application.Relacionais.executor": "Run",
+    "Application.SistemaDeNotas.executor": "Run",
     "Application.SistemadeBibliotecaDigital.executor": "Run",
+    "Application.TabuadaFor.executor": "Run",
     "Application.Ternario.executor": "Run",
+    "Application.TernarioLogica.executor": "Run",
     "Application.TestAbstrato.executor": "Run",
     "Application.TipoString.executor": "Run",
     "Application.TipoStringEquals.executor": "Run",
@@ -81,6 +92,7 @@
     "Application.WhileIndeterminado.executor": "Run",
     "Application.Wrappers.executor": "Run",
     "Application.e1.executor": "Run",
+    "Application.iiiiiifffffff.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -108,9 +120,14 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/fundamentos/operadores/CalculoDeAreas.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/iiiiiifffffff.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/NumeroPrimo.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/colecoes/pilha/Pilha.java</url>

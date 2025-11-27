@@ -1,4 +1,4 @@
-package colecoes.exercicios.biblioteca;
+package exercicios.listas.biblioteca;
 
 import java.util.*;
 
@@ -55,7 +55,7 @@ public class SistemadeBibliotecaDigital {
             if (comando == 2) {
 
 
-                System.out.print(" Digite o livro que deseja pegar emprestado  : ");
+                System.out.print(" Digite o livro que deseja pegar emprestado : ");
                 String emprestado = input.nextLine().toLowerCase();
 
                 Livro livroParaRemover = null;

@@ -1,4 +1,4 @@
-package colecoes.exercicios.biblioteca;
+package exercicios.listas.biblioteca;
 
 public class Livro implements Comparable<Livro> { // Implementação de Comparable
     public String tituloDoLivro;

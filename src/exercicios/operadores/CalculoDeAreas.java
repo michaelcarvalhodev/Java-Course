@@ -1,4 +1,4 @@
-package fundamentos.operadores;
+package exercicios.operadores;
 
 import java.util.Scanner;
 
