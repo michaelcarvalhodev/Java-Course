@@ -31,7 +31,7 @@ public class SistemadeBibliotecaDigital {
 
         while (comando != 0) {
 
-            System.out.print("\n Digite:\n 1\uFE0F⃣ para Ver livros disponíveis\n 2\uFE0F⃣ para Pegar um livro emprestado\n 3\uFE0F⃣ para Devolver um livro \n 4\uFE0F⃣ para Buscar um livro pelo título \n 0\uFE0F⃣ para sair do sistema: ");
+            System.out.print("\n Digite:\n 1 para Ver livros disponíveis\n 2 para Pegar um livro emprestado\n 3 para Devolver um livro \n 4 para Buscar um livro pelo título \n 0 para sair do sistema: ");
             comando = input.nextInt();
             input.nextLine();
 
@@ -68,7 +68,7 @@ public class SistemadeBibliotecaDigital {
                 }
 
                 if (livroParaRemover != null && Devolucao.size() == 0) {
-                    System.out.println("Livro encontrado: " + livroParaRemover.getTituloDoLivro() + " \uD83D\uDCDA Você pode pegá-lo emprestado. Boa leitura");
+                    System.out.println("Livro encontrado: " + livroParaRemover.getTituloDoLivro() + " Você pode pegá-lo emprestado. Boa leitura");
                     Biblioteca.remove(livroParaRemover);
                     Devolucao.offer(livroParaRemover);
 

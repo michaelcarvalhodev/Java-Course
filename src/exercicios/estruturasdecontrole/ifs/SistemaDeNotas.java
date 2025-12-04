@@ -13,17 +13,20 @@ public class SistemaDeNotas {
 
         if (nota >= 90){
             System.out.print("Conceito A");
+
         } else if (nota >=80 && nota <=89) {
-            System.out.print("Conceito B");            
+            System.out.print("Conceito B");
+
         } else if (nota >= 70 && nota <= 79 ) {
             System.out.print("Conceito C");
+
         } else if (nota >= 60 && nota <= 69) {
             System.out.print("Conceito D");
+
         } else {
             System.out.print("Conceito F");
             
         }
-
         input.close();
 
     }

@@ -1,18 +1,16 @@
 package exercicios.listas.biblioteca;
 
-public class Livro implements Comparable<Livro> { // Implementação de Comparable
+public class Livro implements Comparable<Livro> {
     public String tituloDoLivro;
     public String autorDoLivro;
-    public int idLivro;  // Usando long para um ID único
+    public int idLivro;
 
-    // Construtor
     public Livro(String tituloDoLivro, String autorDoLivro, int idLivro) {
         this.tituloDoLivro = tituloDoLivro;
         this.autorDoLivro = autorDoLivro;
         this.idLivro = idLivro;
     }
 
-    // Método Getter
     public String getTituloDoLivro() {
         return tituloDoLivro;
     }
@@ -21,16 +19,15 @@ public class Livro implements Comparable<Livro> { // Implementação de Comparab
         return getiDLivro();
     }
 
-    // Implementação da ordenação por título (ordem alfabética)
+
     @Override
     public int compareTo(Livro outroLivro) {
         return this.tituloDoLivro.compareToIgnoreCase(outroLivro.getTituloDoLivro());
     }
 
-    // Método toString para exibição formatada
     @Override
     public String toString() {
-        return String.format("\n📖 Título: %s\n✍️ Autor: %s\n🆔 ID: %d\n", tituloDoLivro, autorDoLivro, idLivro);
+        return String.format("\n Título: %s\n️ Autor: %s\n ID: %d\n", tituloDoLivro, autorDoLivro, idLivro);
     }
 
 }

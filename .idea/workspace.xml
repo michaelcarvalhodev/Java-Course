@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c3f46698-a77c-45cb-ad5b-21b633ca17d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colecoes/exercicios/biblioteca/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/listas/biblioteca/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colecoes/exercicios/biblioteca/SistemadeBibliotecaDigital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/listas/biblioteca/SistemadeBibliotecaDigital.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fundamentos/operadores/CalculoDeAreas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/operadores/CalculoDeAreas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controle/estruturas/DiaDaSemana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controle/estruturas/DiaDaSemana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/ParOuImparNegativoOuPositivoIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/ParOuImparNegativoOuPositivoIf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/SistemaDeNotas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/SistemaDeNotas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/para/TabuadaFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/para/TabuadaFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/listas/biblioteca/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/listas/biblioteca/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/listas/biblioteca/SistemadeBibliotecaDigital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/listas/biblioteca/SistemadeBibliotecaDigital.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Adivinha.executor": "Run",
     "Application.Atribuicao.executor": "Run",
     "Application.BreakRotulado.executor": "Run",
     "Application.Cachorro.executor": "Run",
@@ -51,6 +55,8 @@
     "Application.ConceitosBasicos.executor": "Run",
     "Application.ConjuntoBaguncado.executor": "Run",
     "Application.ConjuntoBaguncadoHashSet.executor": "Run",
+    "Application.ContaBancariaTeste.executor": "Run",
+    "Application.ContadorTeste.executor": "Run",
     "Application.Continue.executor": "Run",
     "Application.DesafioCalculadora.executor": "Run",
     "Application.DesafioFor.executor": "Run",
@@ -66,21 +72,26 @@
     "Application.Gato.executor": "Run",
     "Application.IMC.executor": "Run",
     "Application.IfElse.executor": "Run",
+    "Application.Inverter.executor": "Run",
     "Application.Jantar.executor": "Run",
     "Application.Jogo.executor": "Run",
     "Application.KmToMilhas.executor": "Run",
     "Application.Lista.executor": "Run",
     "Application.Logicos.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MaiorEMenor.executor": "Run",
     "Application.Mapa.executor": "Run",
     "Application.Nomes.executor": "Run",
+    "Application.Notas.executor": "Run",
     "Application.NumeroPrimo.executor": "Run",
     "Application.ParOuImparNegativoOuPositivo.executor": "Run",
     "Application.Pilha.executor": "Run",
     "Application.PrimeiroProgama.executor": "Run",
+    "Application.ProdutoTest.executor": "Run",
     "Application.Relacionais.executor": "Run",
     "Application.SistemaDeNotas.executor": "Run",
     "Application.SistemadeBibliotecaDigital.executor": "Run",
+    "Application.SwitchCase.executor": "Run",
     "Application.TabuadaFor.executor": "Run",
     "Application.Ternario.executor": "Run",
     "Application.TernarioLogica.executor": "Run",
@@ -124,11 +135,6 @@
           <line>19</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/NumeroPrimo.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/colecoes/pilha/Pilha.java</url>
           <line>7</line>
@@ -146,6 +152,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exercicios/estruturasdecontrole/dowhile/Adivinha.java</url>
+          <line>6</line>
+          <properties class="exercicios.estruturasdecontrole.dowhile.Adivinha">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

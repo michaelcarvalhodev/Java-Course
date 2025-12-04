@@ -14,7 +14,6 @@ public class DiaDaSemana {
         if ( !dia.equals("Domingo") && !dia.equals("Segunda") && !dia.equals("Terça") &&
                 !dia.equals("Quarta") && !dia.equals("Quinta") && !dia.equals("Sexta") &&
                 !dia.equals("Sábado") ) {
-            // Código a ser executado se o dia não for nenhum desses
             System.out.println("Dia Invalido");
         }
 

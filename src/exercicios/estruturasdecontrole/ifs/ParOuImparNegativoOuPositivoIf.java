@@ -13,10 +13,13 @@ public class ParOuImparNegativoOuPositivoIf {
 
         if (n % 2 == 1 && n > 0){
             System.out.print("Numero impar e positivo");
+
         } else if (n % 2 == 1 && n <= 0){
             System.out.println("Numero impar e negativo");
+
         } else if (n % 2 == 0 && n > 0) {
             System.out.print("Numero par e positivo");
+
         } else {
             System.out.print("Numero par e negativo");
         }
