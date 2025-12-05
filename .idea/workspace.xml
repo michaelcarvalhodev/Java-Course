@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c3f46698-a77c-45cb-ad5b-21b633ca17d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controle/estruturas/DiaDaSemana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controle/estruturas/DiaDaSemana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/ParOuImparNegativoOuPositivoIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/ParOuImparNegativoOuPositivoIf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/SistemaDeNotas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/SistemaDeNotas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/para/TabuadaFor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/para/TabuadaFor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/listas/biblioteca/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/listas/biblioteca/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/listas/biblioteca/SistemadeBibliotecaDigital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/listas/biblioteca/SistemadeBibliotecaDigital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/arraysecollection/Inverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/arraysecollection/Inverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/dowhile/Adivinha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/dowhile/Adivinha.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +26,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.1/lib/src.zip!/java.base/java/io/BufferedWriter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-23.0.1/lib/src.zip!/java.base/java/io/Writer.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -45,6 +45,7 @@
     "Application.Adivinha.executor": "Run",
     "Application.Atribuicao.executor": "Run",
     "Application.BreakRotulado.executor": "Run",
+    "Application.Buscar.executor": "Run",
     "Application.Cachorro.executor": "Run",
     "Application.CalculoDeAreas.executor": "Run",
     "Application.CalculoTest1.executor": "Run",
@@ -65,6 +66,7 @@
     "Application.DoWhile.executor": "Run",
     "Application.DoWhileLogica.executor": "Run",
     "Application.EmpresaTest.executor": "Run",
+    "Application.Estatísticas.executor": "Run",
     "Application.ExercicioArray.executor": "Run",
     "Application.ExercicioArrayResposta.executor": "Run",
     "Application.ExerciciosEstruturasdeControle.executor": "Run",
@@ -81,6 +83,7 @@
     "Application.Main.executor": "Run",
     "Application.MaiorEMenor.executor": "Run",
     "Application.Mapa.executor": "Run",
+    "Application.Matriz3x3.executor": "Run",
     "Application.Nomes.executor": "Run",
     "Application.Notas.executor": "Run",
     "Application.NumeroPrimo.executor": "Run",
@@ -108,7 +111,8 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/JavaCurso/JavaCurso",
-    "onboarding.tips.debug.path": "D:/JavaCurso/JavaCurso/src/Main.java"
+    "onboarding.tips.debug.path": "D:/JavaCurso/JavaCurso/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -156,7 +160,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/exercicios/estruturasdecontrole/dowhile/Adivinha.java</url>
           <line>6</line>
-          <properties class="exercicios.estruturasdecontrole.dowhile.Adivinha">
+          <properties class="exercicios.estruturasdecontrole.dowhile.Adivinha" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

@@ -15,7 +15,6 @@ public class Adivinha {
 
             System.out.print("\nSorteando um numero de 1 a 50 ... ");
 
-
             int chute = 0;
             int tentativas = 7;
 
