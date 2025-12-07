@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3f46698-a77c-45cb-ad5b-21b633ca17d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/exercicios/arraysecollection/EstatísticasArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/arraysecollection/Inverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/arraysecollection/Inverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/dowhile/Adivinha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/dowhile/Adivinha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/arraysecollection/Estatísticas.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +67,7 @@
     "Application.DoWhileLogica.executor": "Run",
     "Application.EmpresaTest.executor": "Run",
     "Application.Estatísticas.executor": "Run",
+    "Application.EstatísticasArray.executor": "Run",
     "Application.ExercicioArray.executor": "Run",
     "Application.ExercicioArrayResposta.executor": "Run",
     "Application.ExerciciosEstruturasdeControle.executor": "Run",
