@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3f46698-a77c-45cb-ad5b-21b633ca17d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercicios/arraysecollection/EstatísticasArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/arraysecollection/Estatísticas.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +89,7 @@
     "Application.ParOuImparNegativoOuPositivo.executor": "Run",
     "Application.Pilha.executor": "Run",
     "Application.PrimeiroProgama.executor": "Run",
+    "Application.ProdutoT.executor": "Run",
     "Application.ProdutoTest.executor": "Run",
     "Application.Relacionais.executor": "Run",
     "Application.SistemaDeNotas.executor": "Run",
@@ -166,6 +165,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exercicios/oo/composicao/ProdutoT.java</url>
+          <line>4</line>
+          <properties class="exercicios.oo.composicao.ProdutoT" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
