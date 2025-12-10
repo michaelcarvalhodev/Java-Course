@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c3f46698-a77c-45cb-ad5b-21b633ca17d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/arraysecollection/EstatísticasArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/arraysecollection/EstatísticasArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/oo/classes/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/oo/classes/Retangulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +65,7 @@
     "Application.DiaDaSemana.executor": "Run",
     "Application.DoWhile.executor": "Run",
     "Application.DoWhileLogica.executor": "Run",
+    "Application.EmpresaT.executor": "Run",
     "Application.EmpresaTest.executor": "Run",
     "Application.Estatísticas.executor": "Run",
     "Application.EstatísticasArray.executor": "Run",
