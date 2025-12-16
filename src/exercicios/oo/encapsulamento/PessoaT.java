@@ -7,12 +7,10 @@ public class PessoaT {
 
         Pessoa p1 = new Pessoa();
 
-        p1.setNome(" Joao   ");
-        p1.setIdade(12);
-        p1.setCPF("50254334562");
+        p1.setNome("   a ");
+        p1.setIdade(150);
+        p1.setCPF("50254234562");
 
-        System.out.println(p1.getNome());
-        System.out.println(p1.getIdade());
-        System.out.println(p1.getCPF());
+        System.out.println(p1.imprimirDados());
     }
 }
