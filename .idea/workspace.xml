@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c3f46698-a77c-45cb-ad5b-21b633ca17d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/oo/encapsulamento/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/oo/encapsulamento/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/oo/encapsulamento/PessoaT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/oo/encapsulamento/PessoaT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/oo/os4pilares/heranca/Desenvolvedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/oo/heranca/Desenvolvedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/oo/os4pilares/heranca/EmpresaT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/oo/heranca/EmpresaT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/oo/os4pilares/heranca/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/oo/heranca/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/oo/os4pilares/heranca/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/oo/heranca/Gerente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,7 @@
     "Application.CalculoTest1.executor": "Run",
     "Application.CalculoTest2.executor": "Run",
     "Application.CarroTeste.executor": "Run",
+    "Application.Circulo.executor": "Run",
     "Application.ClienteTest.executor": "Run",
     "Application.CompleteOCodigo.executor": "Run",
     "Application.ConceitosBasicos.executor": "Run",
@@ -73,6 +76,7 @@
     "Application.ExercicioArrayResposta.executor": "Run",
     "Application.ExerciciosEstruturasdeControle.executor": "Run",
     "Application.ForEach.executor": "Run",
+    "Application.FormasTest.executor": "Run",
     "Application.Gato.executor": "Run",
     "Application.IMC.executor": "Run",
     "Application.IfElse.executor": "Run",
