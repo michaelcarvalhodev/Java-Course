@@ -37,10 +37,4 @@ https://www.notion.so/Udemy-Java-4e3a483a0d0244719be1680bb1b82593
 * Classes abstratas e interfaces
 * Tratamento de exceções
 
----
 
-
-* GitHub: [@michaelcarvalhodev](https://github.com/michaelcarvalhodev)
-
-
- *Aprender é um processo, este repositório representa essa jornada.*
