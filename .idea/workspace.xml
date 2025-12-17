@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c3f46698-a77c-45cb-ad5b-21b633ca17d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/oo/os4pilares/heranca/Desenvolvedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/oo/heranca/Desenvolvedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/oo/os4pilares/heranca/EmpresaT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/oo/heranca/EmpresaT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/oo/os4pilares/heranca/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/oo/heranca/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/oo/os4pilares/heranca/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/oo/heranca/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/oo/polimorfismo/Forma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/oo/polimorfismo/Forma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/oo/polimorfismo/FormasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/oo/polimorfismo/FormasTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +58,7 @@
     "Application.ConjuntoBaguncado.executor": "Run",
     "Application.ConjuntoBaguncadoHashSet.executor": "Run",
     "Application.ContaBancariaTeste.executor": "Run",
+    "Application.ContaTest.executor": "Run",
     "Application.ContadorTeste.executor": "Run",
     "Application.Continue.executor": "Run",
     "Application.DesafioCalculadora.executor": "Run",
