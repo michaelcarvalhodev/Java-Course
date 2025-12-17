@@ -7,15 +7,15 @@ public class Conta {
     private String titular;
 
     public String getTitular() {
+        return titular;
+    }
+
+    public void setTitular(String titular) {
 
         if (titular == null || titular.isBlank()) {
             throw new IllegalArgumentException("O nome do titular nao pode ser vazio");
         }
 
-        return titular;
-    }
-
-    public void setTitular(String titular) {
         this.titular = titular;
     }
 
@@ -33,5 +33,15 @@ public class Conta {
 
     public void setNumero(int numero) {
         this.numero = numero;
+    }
+
+
+    @Override
+    public String toString() {
+        return "\nInformacoes da Conta: " +
+                "\nnumero = " + numero +
+                "\nsaldo = " + saldo +
+                "\ntitular = '" + titular + '\''
+                ;
     }
 }
