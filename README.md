@@ -18,7 +18,7 @@ O objetivo principal deste repositório é documentar minha evolução, reforça
 Além do código, estou documentando minha jornada de aprendizado neste curso de Java por meio de anotações organizadas no Notion, onde registro conceitos, exemplos, insights e aprendizados ao longo do curso.
 
 🔗 Documentação completa:
-https://www.notion.so/Udemy-Java-4e3a483a0d0244719be1680bb1b82593
+https://www.notion.so/Java-Curso-4e3a483a0d0244719be1680bb1b82593?source=copy_link
 
 ---
 
