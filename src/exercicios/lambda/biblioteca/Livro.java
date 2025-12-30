@@ -5,16 +5,22 @@ import java.time.LocalDate;
 public class Livro {
 
     private Autor autor;
+    private String ISBN;
     private String titulo;
     private String genero;
     private LocalDate dataLancamento;
 
-    public Livro(Autor autor, String titulo, String genero, LocalDate dataLancamento){
+    public Livro(Autor autor,String ISBN, String titulo, String genero, LocalDate dataLancamento){
         this.autor = autor;
+        this.ISBN = ISBN;
         this.titulo = titulo;
         this.genero = genero;
         this.dataLancamento = dataLancamento;
     }
+
+    public void setISBN(String ISBN){this.ISBN = ISBN;}
+
+    public String getISBN(){return ISBN;}
 
     public void setAutor(Autor autor) {
         this.autor = autor;
