@@ -9,6 +9,8 @@ public class BibliotecaTest {
 
         Biblioteca biblioteca = new Biblioteca();
 
+        biblioteca.acervo();
+
         Scanner input = new Scanner(System.in);
 
         System.out.print("\n----------------------------");
@@ -25,17 +27,6 @@ public class BibliotecaTest {
 
 
         input.close();
-//        Leitor michael = new Leitor("Michael", "12345678911");
-//
-//        Autor dodo = new Autor("Dostoievsk");
-//
-//        Livro crimeeCastigo = new Livro(dodo, "1234","Crime e Castigo", "Romance", LocalDate.of(1866,12,14));
-//
-//        biblioteca.emprestarLivro(michael, crimeeCastigo);
-//
-//        biblioteca.devolverLivro(crimeeCastigo);
-//
-//        biblioteca.emprestarLivro(michael, crimeeCastigo);
 
     }
 }
