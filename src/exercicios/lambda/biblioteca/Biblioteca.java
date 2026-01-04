@@ -17,14 +17,44 @@ public class Biblioteca {
 
     public void acervo(){
         Autor Dostoievsk = new Autor("Dostoievsk");
-        Livro crimeeCastigo = new Livro(Dostoievsk, "1234","Crime e Castigo", "Romance", LocalDate.of(1866,12,14));
+        Livro CrimeeCastigo = new Livro(Dostoievsk, "1234","Crime e Castigo", "Romance", LocalDate.of(1866,12,14));
 
-        adicionarLivro(crimeeCastigo);
+        Autor Agustinho = new Autor("Agustinho");
+        Livro Confissoes  = new Livro(Agustinho, "2234","Confissões", "Autobiográfico ", LocalDate.of(397,12,15));
+
+        adicionarLivro(CrimeeCastigo);
+        adicionarLivro(Confissoes);
     }
 
     public void adicionarLivro(Livro livro) {
         livros.put(livro.getISBN(), livro);
     }
+
+
+    public void listarLivros(){
+
+        livros.values().forEach(l -> System.out.println(l.getTitulo()) );
+    }
+
+    public String livrosDetalhes() {
+        StringBuilder texto = new StringBuilder();
+        int cont = 1;
+
+        for (Livro l : livros.values()) {
+
+            texto.append("\nLivro ").append(cont).append("\n");
+            texto.append("Titulo: ").append( l.getTitulo() ).append("\n");
+            texto.append("Autor: ").append( l.getAutor().getNome() ).append("\n");
+            texto.append("Genero: ").append(l.getGenero()).append("\n");
+            texto.append("Data de Lancamento: ").append(l.getdataLancamento()).append("\n");
+
+
+            cont++;
+        }
+
+        return texto.toString();
+    }
+
 
     public void emprestarLivro(Leitor leitor, Livro livro) {
 
@@ -56,13 +86,6 @@ public class Biblioteca {
     }
 
     private boolean isLivroDisponivel(Livro livro) {
-
-//        for (Emprestimo livroEmprestado : livrosEmprestas) {
-//
-//            if (livroEmprestado.getLivroEmprestado() == livro) {
-//                return false;
-//            }
-//        }
 
         return livrosEmprestas.stream().noneMatch(e -> e.getLivroEmprestado() == livro);
     }
