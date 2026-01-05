@@ -3,6 +3,7 @@ package exercicios.lambda.biblioteca;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Biblioteca {
@@ -56,6 +57,8 @@ public class Biblioteca {
     }
 
 
+
+
     public void emprestarLivro(Leitor leitor, Livro livro) {
 
         if (isLivroDisponivel(livro)) {
@@ -66,6 +69,21 @@ public class Biblioteca {
             throw new IllegalArgumentException("Livro indisponivel");
         }
     }
+
+
+
+    public Livro getLivroPorNumero(int numero) {
+        List<Livro> listaTemp = new ArrayList<>(livros.values());
+
+        int indiceReal = numero - 1;
+
+        if (indiceReal >= 0 && indiceReal < listaTemp.size()) {
+            return listaTemp.get(indiceReal);
+        } else {
+            return null;
+        }
+    }
+
 
     public void devolverLivro(Livro livro) {
 

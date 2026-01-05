@@ -48,20 +48,35 @@ public class BibliotecaTest {
                     break;
 
                 case 2:
-                    System.out.println("\nDigite o numero do livro que voce quer empretado: ");
+                    System.out.println("\n--- Emprestimo ---");
                     System.out.println(biblioteca.livrosDetalhes());
 
-                    System.out.print("Numero do livro: ");
-                    int numeroLivroEmprestado = input.nextInt();
+                    System.out.print("Digite o numero do livro que você quer: ");
+                    int numeroEscolhido = input.nextInt();
+                    input.nextLine();
 
+                    Livro livroSelecionado = biblioteca.getLivroPorNumero(numeroEscolhido);
 
-                    biblioteca.emprestarLivro(novoLeitor, biblioteca.getLivroPorNumero(numeroLivroEmprestado));
+                    if (livroSelecionado != null) {
 
+                        try {
+                            biblioteca.emprestarLivro(novoLeitor, livroSelecionado);
+                            System.out.println(" Voce pegou: " + livroSelecionado.getTitulo());
+                        } catch (Exception e) {
+                            System.out.println("Erro ao emprestar: " + e.getMessage());
+                        }
+                    } else {
+                        System.out.println("Numero de livro invalido!");
+                    }
                     break;
 
-                case 4:
 
-//                    System.out.println();
+                case 3:
+
+
+
+                case 4:
+                    
                     input.nextLine();
                     System.out.print("Qual o autor do livro?: ");
                     String nomeAutor = input.nextLine();

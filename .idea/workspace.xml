@@ -44,7 +44,7 @@
   "keyToString": {
     "Application.Adivinha.executor": "Run",
     "Application.Atribuicao.executor": "Run",
-    "Application.BibliotecaTest.executor": "Run",
+    "Application.BibliotecaTest.executor": "Debug",
     "Application.BreakRotulado.executor": "Run",
     "Application.Buscar.executor": "Run",
     "Application.Cachorro.executor": "Run",
