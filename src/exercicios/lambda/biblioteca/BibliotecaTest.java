@@ -73,10 +73,29 @@ public class BibliotecaTest {
 
                 case 3:
 
+                    Emprestimo emprestimoExistente = biblioteca.buscarEmprestimo(novoLeitor);
+
+                    if (emprestimoExistente != null) {
+
+                        System.out.println("Voce tem um livro emprestado: " + emprestimoExistente.getLivroEmprestado().getTitulo());
+                        System.out.print("Deseja devolver este livro agora? (1-Sim / 2-Não): ");
+                        int soun = input.nextInt();
+                        if (soun == 1) {
+                            System.out.println("o livro " + emprestimoExistente.getLivroEmprestado().getTitulo() + " foi devolvido");
+                            biblioteca.devolverLivro(emprestimoExistente.getLivroEmprestado());
+                        } else  {
+
+                            System.out.println("Ok, voce ainda tem a posse do livro " + emprestimoExistente.getLivroEmprestado().getTitulo());
+                        }
+
+                    } else {
+                        System.out.println("Voce nao tem livros no momento");
+                    }
+                    break;
 
 
                 case 4:
-                    
+
                     input.nextLine();
                     System.out.print("Qual o autor do livro?: ");
                     String nomeAutor = input.nextLine();
@@ -110,14 +129,7 @@ public class BibliotecaTest {
 
         } while (opcao != 0);
 
-
-//        System.out.print("\n\n Digite seu nome: ");
-//        String leitornome = input.nextLine();
-//
-//        System.out.print("Digite seu CPF: ");
-//        String leitorcpf = input.nextLine();
-//
-//        Leitor leitor01 = new Leitor(leitornome,leitorcpf);
+        System.out.println("Finalizando o progama ...");
 
 
         input.close();

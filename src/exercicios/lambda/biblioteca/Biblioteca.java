@@ -16,12 +16,12 @@ public class Biblioteca {
     }
 
 
-    public void acervo(){
+    public void acervo() {
         Autor Dostoievsk = new Autor("Dostoievsk");
-        Livro CrimeeCastigo = new Livro(Dostoievsk, "1234","Crime e Castigo", "Romance", LocalDate.of(1866,12,14));
+        Livro CrimeeCastigo = new Livro(Dostoievsk, "1234", "Crime e Castigo", "Romance", LocalDate.of(1866, 12, 14));
 
         Autor Agustinho = new Autor("Agustinho");
-        Livro Confissoes  = new Livro(Agustinho, "2234","Confissões", "Autobiográfico ", LocalDate.of(397,12,15));
+        Livro Confissoes = new Livro(Agustinho, "2234", "Confissões", "Autobiográfico ", LocalDate.of(397, 12, 15));
 
         adicionarLivro(CrimeeCastigo);
         adicionarLivro(Confissoes);
@@ -32,9 +32,9 @@ public class Biblioteca {
     }
 
 
-    public void listarLivros(){
+    public void listarLivros() {
 
-        livros.values().forEach(l -> System.out.println(l.getTitulo()) );
+        livros.values().forEach(l -> System.out.println(l.getTitulo()));
     }
 
     public String livrosDetalhes() {
@@ -44,8 +44,8 @@ public class Biblioteca {
         for (Livro l : livros.values()) {
 
             texto.append("\nLivro ").append(cont).append("\n");
-            texto.append("Titulo: ").append( l.getTitulo() ).append("\n");
-            texto.append("Autor: ").append( l.getAutor().getNome() ).append("\n");
+            texto.append("Titulo: ").append(l.getTitulo()).append("\n");
+            texto.append("Autor: ").append(l.getAutor().getNome()).append("\n");
             texto.append("Genero: ").append(l.getGenero()).append("\n");
             texto.append("Data de Lancamento: ").append(l.getdataLancamento()).append("\n");
 
@@ -57,19 +57,19 @@ public class Biblioteca {
     }
 
 
-
-
     public void emprestarLivro(Leitor leitor, Livro livro) {
 
-        if (isLivroDisponivel(livro)) {
+        if (isLivroDisponivel(livro) && buscarEmprestimo(leitor) == null) {
             Emprestimo novoEmprestimo = new Emprestimo(leitor, livro, LocalDate.now());
             livrosEmprestas.add(novoEmprestimo);
 
-        } else {
+        } else if (buscarEmprestimo(leitor) != null) {
+            throw new IllegalArgumentException("Ja possui um livro emprestado");
+        }
+        else {
             throw new IllegalArgumentException("Livro indisponivel");
         }
     }
-
 
 
     public Livro getLivroPorNumero(int numero) {
@@ -101,6 +101,16 @@ public class Biblioteca {
         } else {
             throw new IllegalArgumentException("Livro nao esta emprestado");
         }
+    }
+
+    public Emprestimo buscarEmprestimo(Leitor leitor) {
+
+        for (Emprestimo e : livrosEmprestas) {
+            if (e.getQuamPegou().equals(leitor)) {
+                return e;
+            }
+        }
+        return null;
     }
 
     private boolean isLivroDisponivel(Livro livro) {
