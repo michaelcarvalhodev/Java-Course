@@ -6,15 +6,25 @@ public abstract class Personagem {
     private int vida;
     private int forca;
     private int nivel;
+    private int alcanceDeAtaque;
 
     public abstract int atacar(int alvoDistancia);
 
 
-    Personagem(String nome, int vida, int forca, int nivel){
+    Personagem(String nome, int vida, int forca, int alcanceDeAtaque){
         this.nome = nome;
+        this.alcanceDeAtaque = alcanceDeAtaque;
         this.vida = vida;
         this.forca = forca;
         this.nivel = 1;
+    }
+
+    public int getAlcanceDeAtaque(){
+        return alcanceDeAtaque;
+    }
+
+    public void SetAlcance(int alcance){
+        this.alcanceDeAtaque = alcance;
     }
 
 
