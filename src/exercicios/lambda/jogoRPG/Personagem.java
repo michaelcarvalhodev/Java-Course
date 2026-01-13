@@ -1,5 +1,7 @@
 package exercicios.lambda.jogoRPG;
 
+import java.util.ArrayList;
+
 public abstract class Personagem {
 
     private String nome;
@@ -7,6 +9,8 @@ public abstract class Personagem {
     private int forca;
     private int nivel;
     private int alcanceDeAtaque;
+
+    ArrayList<Item> itens = new ArrayList<>();
 
     public abstract int atacar(int alvoDistancia);
 
