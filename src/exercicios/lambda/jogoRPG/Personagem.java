@@ -4,39 +4,55 @@ import java.util.ArrayList;
 
 public abstract class Personagem {
 
+    ArrayList<Item> itens = new ArrayList<>();
     private String nome;
     private int vida;
     private int forca;
     private int nivel;
     private int alcanceDeAtaque;
+    private int dinheiro;
 
-    ArrayList<Item> itens = new ArrayList<>();
-
-    public abstract int atacar(int alvoDistancia);
-
-
-    Personagem(String nome, int vida, int forca, int alcanceDeAtaque){
+    Personagem(String nome, int vida, int forca, int alcanceDeAtaque) {
         this.nome = nome;
         this.alcanceDeAtaque = alcanceDeAtaque;
         this.vida = vida;
         this.forca = forca;
         this.nivel = 1;
+        this.dinheiro = 0;
     }
 
-    public int getAlcanceDeAtaque(){
+    public void comprarItem(Item item) {
+
+        if (item.getPreco() <= dinheiro) {
+            itens.add(item);
+            this.dinheiro = dinheiro - item.getPreco();
+        }
+    }
+
+    public abstract int atacar(int alvoDistancia);
+
+    public int getDinheiro() {
+        return dinheiro;
+    }
+
+    public void setDinheiro(int dinheiro) {
+        this.dinheiro = dinheiro;
+    }
+
+    public int getAlcanceDeAtaque() {
         return alcanceDeAtaque;
     }
 
-    public void SetAlcance(int alcance){
+    public void SetAlcance(int alcance) {
         this.alcanceDeAtaque = alcance;
     }
 
 
-    public int getNivel(){
+    public int getNivel() {
         return nivel;
     }
 
-    public void setNivel(int nivel){
+    public void setNivel(int nivel) {
         this.nivel = nivel;
     }
 

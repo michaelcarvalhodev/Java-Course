@@ -1,7 +1,5 @@
 package exercicios.lambda.jogoRPG;
 
-import java.util.ArrayList;
-
 public class Item {
 
     private String nome;
