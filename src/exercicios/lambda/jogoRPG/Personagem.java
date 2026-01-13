@@ -11,6 +11,7 @@ public abstract class Personagem {
     private int nivel;
     private int alcanceDeAtaque;
     private int dinheiro;
+    private int experiencia;
 
     Personagem(String nome, int vida, int forca, int alcanceDeAtaque) {
         this.nome = nome;
@@ -19,6 +20,7 @@ public abstract class Personagem {
         this.forca = forca;
         this.nivel = 1;
         this.dinheiro = 0;
+        this.experiencia = 0;
     }
 
     public void comprarItem(Item item) {
@@ -26,6 +28,14 @@ public abstract class Personagem {
         if (item.getPreco() <= dinheiro) {
             itens.add(item);
             this.dinheiro = dinheiro - item.getPreco();
+        }
+    }
+
+    public void ganharXP (int pontos){
+        experiencia = experiencia + pontos;
+
+        if (experiencia >= 100){
+            this.nivel = nivel + 1;
         }
     }
 
