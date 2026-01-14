@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public abstract class Personagem {
 
-    ArrayList<Item> itens = new ArrayList<>();
+
     private String nome;
     private int vida;
     private int forca;
@@ -12,8 +12,12 @@ public abstract class Personagem {
     private int alcanceDeAtaque;
     private int dinheiro;
     private int experiencia;
+    private int x;
+    private int y;
 
-    Personagem(String nome, int vida, int forca, int alcanceDeAtaque) {
+    ArrayList<Item> itens = new ArrayList<>();
+
+    Personagem(String nome, int vida, int forca, int alcanceDeAtaque, int x, int y) {
         this.nome = nome;
         this.alcanceDeAtaque = alcanceDeAtaque;
         this.vida = vida;
@@ -21,7 +25,30 @@ public abstract class Personagem {
         this.nivel = 1;
         this.dinheiro = 0;
         this.experiencia = 0;
+        this.x = x;
+        this.y = y;
+
     }
+
+    public int atacar(Personagem alvo) {
+
+        int moduloX = this.x = alvo.x;
+        int moduloY = this.y = alvo.y;
+
+
+        int modulo = (this.x + this.y) - (alvo.x + alvo.y);
+
+
+        int distancia = Math.abs(modulo);
+
+        if (distancia <= this.alcanceDeAtaque){
+            return alvo.vida = alvo.vida - this.forca;
+        }
+
+        return 0;
+    }
+
+    public abstract int atacar(int alvoDistancia);
 
     public void comprarItem(Item item) {
 
@@ -31,15 +58,40 @@ public abstract class Personagem {
         }
     }
 
-    public void ganharXP (int pontos){
-        experiencia = experiencia + pontos;
+    public void ganharXP(int pontosDeXP) {
+        experiencia += pontosDeXP;
 
-        if (experiencia >= 100){
-            this.nivel = nivel + 1;
+        while (experiencia >= 100) {
+            experiencia -= 100;
+            this.nivel++;
         }
     }
 
-    public abstract int atacar(int alvoDistancia);
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    public int getExperiencia() {
+        return experiencia;
+    }
+
+    public void setExperiencia(int experiencia) {
+        this.experiencia = experiencia;
+    }
+
 
     public int getDinheiro() {
         return dinheiro;
