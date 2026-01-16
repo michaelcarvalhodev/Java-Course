@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public abstract class Personagem {
 
 
+    ArrayList<Item> itens = new ArrayList<>();
     private String nome;
     private int vida;
     private int forca;
@@ -14,8 +15,6 @@ public abstract class Personagem {
     private int experiencia;
     private int x;
     private int y;
-
-    ArrayList<Item> itens = new ArrayList<>();
 
     Personagem(String nome, int vida, int forca, int alcanceDeAtaque, int x, int y) {
         this.nome = nome;
@@ -32,23 +31,47 @@ public abstract class Personagem {
 
     public int atacar(Personagem alvo) {
 
-        int moduloX = this.x = alvo.x;
-        int moduloY = this.y = alvo.y;
+        int posX = this.x - alvo.x;
 
+        int posY = this.y - alvo.y;
 
-        int modulo = (this.x + this.y) - (alvo.x + alvo.y);
+        int distanciaX = Math.abs(posX);
+        int distanciaY = Math.abs(posY);
 
-
-        int distancia = Math.abs(modulo);
-
-        if (distancia <= this.alcanceDeAtaque){
-            return alvo.vida = alvo.vida - this.forca;
+        if (distanciaX <= this.alcanceDeAtaque && distanciaY <= this.alcanceDeAtaque) {
+            alvo.setVida(alvo.getVida() - getDanoTotal());
+            return this.forca;
         }
 
         return 0;
     }
 
-    public abstract int atacar(int alvoDistancia);
+    public abstract int getDanoTotal();
+
+    @Override
+    public String toString() {
+        return "\nStatus do boneco" +
+
+                "\nNome: " + this.getNome() +
+                "\nForca: " + this.getForca() +
+                "\nVida: " + this.getVida() +
+                "\nAlcance de ataque: " + this.getAlcanceDeAtaque() +
+                "\nNivel: " + this.getNivel() +
+                "\nExperiencia: " + this.getExperiencia() +
+                "\nDinheiro: " + this.getDinheiro();
+//                this.nome = nome;
+//        this.alcanceDeAtaque = alcanceDeAtaque;
+//        this.vida = vida;
+//        this.forca = forca;
+//        this.nivel = 1;
+//        this.dinheiro = 0;
+//        this.experiencia = 0;
+//        this.x = x;
+//        this.y = y;
+//                "Forca: " + this.getForca() +
+//                "Vida: " + this.getVida();
+//                ": " + this.getVida();
+    }
 
     public void comprarItem(Item item) {
 

@@ -3,20 +3,15 @@ package exercicios.lambda.jogoRPG;
 public class Arqueiro extends Personagem{
 
 
-    Arqueiro(String nome, int vida, int forca, int alcanceDeAtaque){
-        super(nome, vida, forca, alcanceDeAtaque);
+    Arqueiro(String nome, int vida, int forca, int alcanceDeAtaque, int x, int y){
+        super(nome, vida, forca, alcanceDeAtaque, x, y);
 
     }
 
+
     @Override
-    public int atacar(int alvoDistancia) {
-
-        if (getAlcanceDeAtaque() < alvoDistancia){
-            return 0;
-        }
-
+    public int getDanoTotal() {
         return getForca() + getNivel();
-
     }
 
 }

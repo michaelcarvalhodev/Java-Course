@@ -4,18 +4,14 @@ public class Guerreiro extends Personagem {
 
     boolean escudo;
 
-    Guerreiro(String nome, int vida, int forca, int alcanceDeAtaque, boolean escudo) {
-        super(nome, vida, forca, alcanceDeAtaque);
+    Guerreiro(String nome, int vida, int forca, int alcanceDeAtaque, int x, int y, boolean escudo) {
+        super(nome, vida, forca, alcanceDeAtaque, x, y);
         this.escudo = escudo;
     }
 
     @Override
-    public int atacar(int alvoDistancia) {
-
-        if (getAlcanceDeAtaque() < alvoDistancia) {
-            return 0;
-        }
+    public int getDanoTotal() {
         return getForca() + getNivel();
-
     }
+
 }
