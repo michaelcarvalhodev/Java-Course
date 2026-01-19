@@ -15,6 +15,7 @@ public class JogoMain {
 
 
         System.out.println(heman.toString());
+        System.out.println(bruxo.toString());
 
 
     }

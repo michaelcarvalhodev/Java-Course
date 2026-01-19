@@ -51,7 +51,7 @@ public abstract class Personagem {
     @Override
     public String toString() {
         return "\nStatus do boneco" +
-
+                "\nClasse: " + this.getClass().getSimpleName() +
                 "\nNome: " + this.getNome() +
                 "\nForca: " + this.getForca() +
                 "\nVida: " + this.getVida() +
@@ -59,18 +59,7 @@ public abstract class Personagem {
                 "\nNivel: " + this.getNivel() +
                 "\nExperiencia: " + this.getExperiencia() +
                 "\nDinheiro: " + this.getDinheiro();
-//                this.nome = nome;
-//        this.alcanceDeAtaque = alcanceDeAtaque;
-//        this.vida = vida;
-//        this.forca = forca;
-//        this.nivel = 1;
-//        this.dinheiro = 0;
-//        this.experiencia = 0;
-//        this.x = x;
-//        this.y = y;
-//                "Forca: " + this.getForca() +
-//                "Vida: " + this.getVida();
-//                ": " + this.getVida();
+
     }
 
     public void comprarItem(Item item) {
