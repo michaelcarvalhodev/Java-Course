@@ -1,6 +1,7 @@
 package exercicios.lambda.jogoRPG;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public abstract class Personagem {
 
@@ -39,9 +40,12 @@ public abstract class Personagem {
         int distanciaY = Math.abs(posY);
 
         if (distanciaX <= this.alcanceDeAtaque && distanciaY <= this.alcanceDeAtaque) {
-            alvo.setVida(alvo.getVida() - getDanoTotal());
-            return this.forca;
+            int danoFInal = this.getDanoTotal() + (int) (this.forca * Math.random());
+            alvo.setVida(alvo.getVida() - getDanoTotal() - danoFInal);
+
+            return this.forca + (int) (this.forca * Math.random());
         }
+
 
         return 0;
     }
@@ -58,7 +62,8 @@ public abstract class Personagem {
                 "\nAlcance de ataque: " + this.getAlcanceDeAtaque() +
                 "\nNivel: " + this.getNivel() +
                 "\nExperiencia: " + this.getExperiencia() +
-                "\nDinheiro: " + this.getDinheiro();
+                "\nDinheiro: " + this.getDinheiro() +
+                "\n";
 
     }
 
