@@ -11,13 +11,14 @@ public class ParOuImparNegativoOuPositivoIf {
         System.out.print("Digite um numero inteiro: ");
         int n = input.nextInt();
 
-        if (n % 2 == 1 && n > 0){
+        if (Math.abs(n % 2) == 1 && n >= 0) {
+
             System.out.print("Numero impar e positivo");
 
-        } else if (n % 2 == 1 && n <= 0){
+        } else if (Math.abs(n % 2) == 1 && n < 0) {
             System.out.println("Numero impar e negativo");
 
-        } else if (n % 2 == 0 && n > 0) {
+        } else if (Math.abs(n % 2) == 0 && n >= 0) {
             System.out.print("Numero par e positivo");
 
         } else {
