@@ -16,6 +16,9 @@ public abstract class Personagem {
     private int experiencia;
     private int x;
     private int y;
+    private Arma equipamento;
+
+
 
     Personagem(String nome, int vida, int forca, int alcanceDeAtaque, int x, int y) {
         this.nome = nome;
@@ -84,6 +87,14 @@ public abstract class Personagem {
         }
     }
 
+
+    public Arma getEquipamento() {
+        return equipamento;
+    }
+
+    public void setEquipamento(Arma equipamento) {
+        this.equipamento = equipamento;
+    }
 
     public int getX() {
         return x;
@@ -157,5 +168,9 @@ public abstract class Personagem {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public void equiparItem(Arma arma) {
+        this.equipamento = arma;
     }
 }

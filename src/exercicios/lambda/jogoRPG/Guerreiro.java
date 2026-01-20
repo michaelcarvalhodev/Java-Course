@@ -11,7 +11,7 @@ public class Guerreiro extends Personagem {
 
     @Override
     public int getDanoTotal() {
-        return getForca() + getNivel();
+        return getForca() + getNivel() + (getEquipamento() != null ? getEquipamento().getDanoAdicional() : 0);
     }
 
 }

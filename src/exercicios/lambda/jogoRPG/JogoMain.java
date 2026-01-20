@@ -9,14 +9,15 @@ public class JogoMain {
 
         Combate combate = new Combate();
 
-        System.out.println(heman.toString());
-        System.out.println(bruxo.toString());
+//        System.out.println(heman.toString());
+//        System.out.println(bruxo.toString());
 
+
+        Arma espadaDoPoder = new Arma("Espada do Poder", "Espada", 1500, 250);
+        heman.equiparItem(espadaDoPoder);
 
         combate.comecarCombate(bruxo,heman);
 
-        Personagem arrow = new Arqueiro ("Arrow", 3100, 530, 30, 10,5);
-        System.out.println(arrow.toString());
 
     }
 }
