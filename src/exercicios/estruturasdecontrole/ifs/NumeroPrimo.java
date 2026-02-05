@@ -12,10 +12,11 @@ public class NumeroPrimo {
         int n = input.nextInt();
         int cont = 0;
 
-        for (int i = 1; i < Integer.MAX_VALUE; i++) {
+        for (int i = 1; i <= n; i++) {
 
             if (n % i == 0){
                 cont++;
+
             }
 
         }
@@ -23,7 +24,7 @@ public class NumeroPrimo {
         if (cont == 2){
             System.out.printf("%d eh primo, pois ele so eh divisivel apenas por 1 e ele mesmo", n);
         } else {
-            System.out.printf("%d nao eh primo, pois ele eh divisivel por %d numeros", n, cont);
+            System.out.printf("%d nao eh primo, pois ele eh divisivl por %d numeros", n, cont);
         }
         input.close();
 

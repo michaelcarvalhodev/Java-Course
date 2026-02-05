@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c3f46698-a77c-45cb-ad5b-21b633ca17d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/ParOuImparNegativoOuPositivoIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/ParOuImparNegativoOuPositivoIf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/NumeroPrimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercicios/estruturasdecontrole/ifs/NumeroPrimo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +140,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JavaCurso/JavaCurso",
+    "last_opened_file_path": "D:/Projects/botwpp/botwpp/botwpp",
     "onboarding.tips.debug.path": "D:/JavaCurso/JavaCurso/src/Main.java",
     "settings.editor.selected.configurable": "com.github.copilot.settings.completions.CompletionsConfigurable"
   }
