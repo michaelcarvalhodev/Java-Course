@@ -8,7 +8,7 @@ public class ParOuImparNegativoOuPositivoIf {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Digite um numero inteiro: ");
+        System.out.print("Digiteum numero inteiro: ");
         int n = input.nextInt();
 
         if (Math.abs(n % 2) == 1 && n >= 0) {
